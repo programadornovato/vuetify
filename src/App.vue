@@ -1,20 +1,26 @@
 <template>
   <v-app>
-    <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
+    <v-toolbar app class="info" dark>
+      <v-toolbar-side-icon @click="menu=!menu;"></v-toolbar-side-icon>
+      <v-toolbar-title>Titulo</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>open_in_new</v-icon>
-      </v-btn>
+      <v-btn class="success" >Login</v-btn>
+      <v-btn class="error" >Log out</v-btn>
     </v-toolbar>
+
+    <v-navigation-drawer app v-model="menu">
+        <v-list class="pa-0">
+          <v-list-tile avatar>
+            <v-list-tile-avatar>
+              <img src="https://randomuser.me/api/portraits/men/85.jpg">
+            </v-list-tile-avatar>
+
+            <v-list-tile-content>
+              <v-list-tile-title>Programador novato</v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+        </v-list>
+    </v-navigation-drawer>
 
     <v-content>
       <router-view/>
@@ -28,7 +34,7 @@ export default {
   name: 'App',
   data () {
     return {
-      //
+      menu:false
     }
   }
 }
