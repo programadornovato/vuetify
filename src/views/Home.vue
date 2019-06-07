@@ -1,31 +1,50 @@
 <template>
-  <v-container >
-    <v-layout wrap>
-      <v-flex class="primary" xs6 >
-        6
+  <v-container grid-list-md >
+    <v-layout wrap row>
+      <v-flex xs12 sm6>
+        <v-card>
+          <v-img src="https://cdn.vuetifyjs.com/images/cards/desert.jpg">
+          </v-img>
+          <v-card-title>Lorem, ipsum dolor.</v-card-title>
+          <v-card-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident eaque quos ad consequatur minus recusandae accusamus facere suscipit delectus, numquam, porro tenetur temporibus repudiandae vero rem voluptatem earum error excepturi?</v-card-text>
+          <v-card-actions>
+            <v-btn flat>Accion</v-btn>
+          </v-card-actions>
+        </v-card>
       </v-flex>
-      <v-flex class="error" xs6 >
-        6
+      <v-flex xs12 sm6>
+        <v-card>
+          <v-img src="https://cdn.vuetifyjs.com/images/cards/desert.jpg">
+          </v-img>
+          <v-card-title>Lorem, ipsum dolor.</v-card-title>
+          <v-card-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident eaque quos ad consequatur minus recusandae accusamus facere suscipit delectus, numquam, porro tenetur temporibus repudiandae vero rem voluptatem earum error excepturi?</v-card-text>
+          <v-card-actions>
+            <v-btn flat>Accion</v-btn>
+          </v-card-actions>
+        </v-card>
       </v-flex>
-      <v-flex class="secondary" xs6 >
-        6
+      <v-flex xs12 sm6>
+        <v-card>
+          <v-img src="https://cdn.vuetifyjs.com/images/cards/desert.jpg">
+          </v-img>
+          <v-card-title>Lorem, ipsum dolor.</v-card-title>
+          <v-card-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident eaque quos ad consequatur minus recusandae accusamus facere suscipit delectus, numquam, porro tenetur temporibus repudiandae vero rem voluptatem earum error excepturi?</v-card-text>
+          <v-card-actions>
+            <v-btn flat>Accion</v-btn>
+          </v-card-actions>
+        </v-card>
       </v-flex>
-      <v-flex class="success" xs6 >
-        6
+      <v-flex xs12 sm6>
+        <v-card>
+          <v-img src="https://cdn.vuetifyjs.com/images/cards/desert.jpg">
+          </v-img>
+          <v-card-title>Lorem, ipsum dolor.</v-card-title>
+          <v-card-text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident eaque quos ad consequatur minus recusandae accusamus facere suscipit delectus, numquam, porro tenetur temporibus repudiandae vero rem voluptatem earum error excepturi?</v-card-text>
+          <v-card-actions>
+            <v-btn flat>Accion</v-btn>
+          </v-card-actions>
+        </v-card>
       </v-flex>
-    </v-layout>
-
-
-    <v-layout wrap justify-center align-center class="mt-5 secondary"  style="height:500px">
-      <v-flex xs3 class="primary deep-purple darken-2 white--text" >3</v-flex>
-      <v-flex xs3 class="success display-3 text-uppercase" >3 texto</v-flex>
-      <v-flex xs3 class="error" >3</v-flex>
-    </v-layout>
-    <v-layout>
-      <v-flex xs3 class="" >texto 1</v-flex>
-      <v-flex xs3 class="" >texto 2</v-flex>
-      <v-flex xs3 class="primary text-xs-center" >texto 3</v-flex>
-      <v-flex xs3 class="" >texto 4</v-flex>
     </v-layout>
   </v-container>
 </template>
